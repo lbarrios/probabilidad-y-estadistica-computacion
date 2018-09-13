@@ -88,3 +88,18 @@ Programa
     Normales: método de Welch. 
     - Test asintóticos. 
     - Test para proporciones.
+
+Bibliografía
+------------
+
+- Jay L. Devore, “Probabilidad y Estadística para Ingeniería y Ciencias”, International Thomson Editores.
+
+- Matloff, Norman S. “Probability Modeling and Computer Simulation”. PWS-Kent, Publishing Company, 1988.
+
+- William Mendenhall. “Estadísitica para Administradores” . Grupo Editorial Iberoamérica.
+
+- William Mendenhall, Richard Scheaffer y Dennis Wackerly. “Estadística Matemática con Aplicaciones”. Grupo Editorial Iberoamérica.
+
+- John A. Rice, “Mathematical Statistics and Data Analysis”. Duxbury Press, 1995.
+
+- An Introduction to R. Notes on R: “A Programming Environment for Data Analysis and Graphics” Version 1.7.1. (2003-6-16).
