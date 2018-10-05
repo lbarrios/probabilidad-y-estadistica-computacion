@@ -83,7 +83,8 @@ Sea `S` un espacio muestral, definimos `P` una **función de probabilidad** tal 
 
     Finalmente, P(A∪B)=P(A)+P(B)-P(A∩B).
 
-### Conteo
+Conteo
+------
 
 * Dado un espacio muestral `S` compuesto por pares ordenados de resultados con la forma `(x,y)`, y en donde existen `n` formas de elegir a `x` y `m` formas de elegir a `y`, entonces hay `n * m` pares posibles en `S`.
 	* De forma más general, si `S` está compuesto por tuplas `(x₁, x₂, ..., xₙ)`, en donde cada `xᵢ` tiene `nᵢ` posibles elecciones, hay `x₁ * x₂ * ... * xₙ` posibles tuplas en `S`.
@@ -97,3 +98,19 @@ Sea `S` un espacio muestral, definimos `P` una **función de probabilidad** tal 
 * Una **combinación** es un subconjunto no-ordenado.
     - Dado `S` de `N` objetos distintos, el número de subconjuntos posibles de tamaño `m` es el combinatorio `(N m) = N! / (m! (N-m)!)`.
     - Esto es equivalente a tomar `m` objetos sin orden (por ejemplo, todos juntos) de una bolsa de tamaño N.
+
+Probabilidad Condicional
+------------------------
+
+* Dado un evento `M` tal que `P(M)≠0`, se define la "probabilidad condicional del evento `A` dado `M`" de la forma `P(A|M) = P(A∩M) / P(M)`.
+
+Probabilidad Total y Teorema de Bayes
+-------------------------------------
+
+* **Probabilidad Total**: Sea `(A₁, A₂, ⋯, Aₙ)` una partición de `S` compuesta por `n` eventos disjuntos. La probabidad de un evento `B⊆S` es `P(B) = P(B|A₁)P(A₁) + P(B|A₂)P(A₂) + ⋯ + P(B|Aₙ)P(Aₙ)`
+* **Teorema de Bayes**: `P(Aₖ|B) = (P(B|Aₖ)P(Aₖ)) / (∑P(B|Aᵢ)P(Aᵢ))`
+
+Independencia de Eventos
+------------------------
+
+* Dos eventos son independientes si la intersección es igual al producto de sus probabilidades, `P(A∩B) = P(A)P(B)`.
